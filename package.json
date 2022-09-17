@@ -1,6 +1,6 @@
 {
   "name": "querybuildertotaldb",
-  "version": "1.0.10",
+  "version": "1.0.0",
   "description": "TotalDB SQL integrator",
   "main": "index.js",
   "scripts": {
