@@ -1,5 +1,3 @@
-require('total4');
-
 // Total.js Module: TotalDB integrator
 
 const CANSTATS = global.F ? (global.F.stats && global.F.stats.performance && global.F.stats.performance.dbrm != null) : false;
@@ -466,4 +464,3 @@ exports.init = function(name, url, errorhandling) {
 	NEWDB(name, (filter, callback) => exec(url, filter, callback, errorhandling));
 };
 
-exports.init('', 'https://totaldb.totaljs.com/api/?token=btznu9zpb9455hpdyu9cr4b40ukpsr');
