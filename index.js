@@ -464,3 +464,4 @@ exports.init = function(name, url, errorhandling) {
 	NEWDB(name, (filter, callback) => exec(url, filter, callback, errorhandling));
 };
 
+require('./tdb');
