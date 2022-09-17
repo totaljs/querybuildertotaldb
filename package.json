@@ -1,0 +1,29 @@
+{
+  "name": "querybuildertotaldb",
+  "version": "1.0.10",
+  "description": "TotalDB SQL integrator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totaljs/querybuildertotaldb.git"
+  },
+  "dependencies": {
+    "total4": "latest",
+    "pg": "latest"
+  },
+  "keywords": [
+    "orm",
+    "totaldb",
+    "postgresql",
+    "pg"
+  ],
+  "author": "Peter Sirka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/totaljs/querybuildertotaldb/issues"
+  },
+  "homepage": "https://github.com/totaljs/querybuildertotaldb#readme"
+}
