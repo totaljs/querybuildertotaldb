@@ -153,6 +153,7 @@ function pg_where(where, opt, filter, operator) {
 				where.length && where.push(operator);
 				where.push('LENGTH(' + item.name +'::text)>0');
 				break;
+			case 'array':
 			case 'search':
 				where.length && where.push(operator);
 				tmp = item.value.replace(/%/g, '');
